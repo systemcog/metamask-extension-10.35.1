@@ -18,7 +18,7 @@ It is vital any new confirmations are implemented using best practices and consi
 
 As we try to maintain a clean boundary between the UI and background page, the effort to implement a new confirmation can also be split accordingly.
 
-## Background
+## Background ###
 
 ### 1. Create Messenger
 
