@@ -45,7 +45,7 @@ With each pull request, the @MetaMaskBot will comment with a build of that new p
 
 ## Hotfix Differences
 
-Our `develop` branch is usually not yet fully tested for quality assurance, and so should be treated as if it is in an unstable state.
+Our develop branch is usually not yet fully tested for quality assurance, and so should be treated as if it is in an unstable state.
 
 For this reason, when an urgent change is needed in production, its pull request should:
 
