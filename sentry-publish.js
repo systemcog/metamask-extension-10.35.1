@@ -35,7 +35,7 @@ async function start() {
         })
         .option('build-version', {
           default: 0,
-          description: 'The MetaMask extension build version',
+          description: 'The MetaMask extension build version 11',
           type: 'number',
         }),
   );
