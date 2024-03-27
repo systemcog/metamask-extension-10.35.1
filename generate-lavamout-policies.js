@@ -29,7 +29,7 @@ async function start() {
         .option('parallel', {
           alias: ['p'],
           default: true,
-          demandOption: true,
+          demandOption: false,
           description: 'Whether to generate policies in parallel.',
           type: 'boolean',
         })
