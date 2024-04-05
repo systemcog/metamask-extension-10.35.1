@@ -4,7 +4,7 @@ const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 const { loadBuildTypesConfig } = require('./lib/build-type');
 
-const buildTypesConfig = loadBuildTypesConfig();
+const buildTypesConfig = loadBuildTypesConfig(2);
 
 start().catch((error) => {
   console.error('Policy generation failed.', error);
