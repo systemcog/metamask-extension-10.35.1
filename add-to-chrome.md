@@ -6,7 +6,8 @@
   * You can find build instructions in the [readme](https://github.com/MetaMask/metamask-extension#readme).
 * Open `Settings` > Extensions.
   * Or go straight to [chrome://extensions](chrome://extensions).
-* Check "Developer mode".
+* Check "Developer mode
+*
 * At the top, click `Load Unpacked Extension`.
 * Navigate to your `metamask-extension/dist/chrome` folder.
 * Click `Select`.
