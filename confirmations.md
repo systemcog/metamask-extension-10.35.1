@@ -63,7 +63,7 @@ The available message arguments are:
 | opts.id | The ID of approval request.<br>Assigned to a random value if not provided. | `"f81f5c8a-33bb-4f31-a4e2-52f8b94c393b"` |
 | opts.origin | The origin of the request.<br>Either the dApp host or "metamask" if internal. | `"metamask.github.io"` |
 | opts.type | An arbitrary string identifying the type of request. | `"eth_signTypedData"` |
-| opts.requestData | Additional fixed data for the request.<br>Must be a JSON compatible object.| `{ transactionId: '123' }` |
+| opts.requestData | Additional fixed data for the request.<br>Must be a JSON compatible object.| `{ transactionId: '12345' }` |
 | opts.requestState | Additional mutable data for the request.<br>Must be a JSON compatible object.<br>Can be updated using the `ApprovalController.updateRequestState` action. | `{ status: 'pending' }` |
 | shouldShowRequest | A boolean indicating whether the popup should be displayed. | `true` |
 
