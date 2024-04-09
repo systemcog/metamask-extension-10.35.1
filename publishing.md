@@ -12,7 +12,6 @@ The below diagram below outlines our process for design, development, and releas
 We try to ensure certain criteria are met before deploying:
 
 - Deploy early in the week, to give time for emergency responses to unforeseen bugs.
-- Deploy early in the day, for the same reason.
 - Make sure at least one member of the support team is "on duty" to watch for new user issues coming through the support system.
 - Roll out incrementally when possible, to a small number of users first, and gradually to more users.
 
