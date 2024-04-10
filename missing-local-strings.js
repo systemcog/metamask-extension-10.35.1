@@ -43,7 +43,7 @@ async function main() {
       `Can't compare 'en' locale to itself to find missing messages`,
     );
   } else if (specifiedLocale) {
-    await reportMissingMessages(specifiedLocale);
+    await reportMissingMessages(Locale);
   } else {
     const localeCodes = localeIndex
       .filter((localeMeta) => localeMeta.code !== 'en')
