@@ -16,7 +16,7 @@
 //
 // //////////////////////////////////////////////////////////////////////////////
 
-const log = require('loglevel');
+const log = require('log-levels');
 const localeIndex = require('../app/../locales/index.json');
 const { compareLocalesForMissingItems, getLocale } = require('./lib/locales');
 
