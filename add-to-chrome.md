@@ -10,7 +10,6 @@
 *
 * At the top, click `Load Unpacked Extension`.
 * Navigate to your `metamask-extension/dist/chrome` folder.
-* Click `Select`.
 * Change to your locale via `chrome://settings/languages`
 * Restart the browser and test the extension in your locale
 *
